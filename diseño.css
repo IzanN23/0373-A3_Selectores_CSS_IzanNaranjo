@@ -1,0 +1,74 @@
+/* Regla 1: Cambiar la fuente a la fuente */
+*  {
+    font-family: "Tenor Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+/* Regla 2: El elemento body tendra margen 0 y relleno de 20% solo a la derecha y izquierda */
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+/* Regla 3: Los elementos h1 estaran subrayados, con color darkcyan y alineados al centro */
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+/* Regla 4: Los elementos con clase "selector" tendran color lightcyan */
+.selector {
+    color: lightcyan;
+}
+
+/* Regla 5: Los elementos con clase "selectors" tendran relleno de 5%, borde salido darkcyan y esquinas redondeadas */
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+
+/* Regla 6: Los elementos con id "universal" tendran color lightgoldenrodyellow */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* Regla 7: Los elementos h2 con clase "selector" o con id "universal" tendran fondo darkcyan, relleno de 1% y esquinas redondeadas */
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* Regla 8: Los elementos span tendran font-weight: 900, fondo negro y texto blanco */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+/* Regla 9: Los elementos a dentro de li tendran text-decoration: none */
+li > a {
+    text-decoration: none;
+}
+
+/* Regla 10: Los elementos h3 tendran fondo rgba(0, 139, 139, 0.529), relleno de 0.5px y esquinas redondeadas */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* Regla 11: Los div dentro de #gallery tendran un ancho de 100% */
+#gallery div {
+    width: 100%;
+}
+
+/* Regla 12: Las imagenes tendran un ancho de 100%, borde darkcyan 1px y esquinas redondeadas */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
